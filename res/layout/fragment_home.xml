@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/helloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, Choleswar!"
+        android:textSize="30sp"
+        android:textColor="#FF6200EE"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Great to hear that you make an app. Looking forward to make a better app where we could solve the problems which our people feel and make the region a better place. Thank you!"
+        android:textSize="18sp"
+        android:textColor="#FF3700B3"
+        android:layout_below="@id/helloTextView"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <Button
+        android:id="@+id/navigateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Second Page"
+        android:backgroundTint="#FF03DAC5"
+        android:layout_below="@id/messageTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+</RelativeLayout>
