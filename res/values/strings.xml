@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="title">Laxmi Puja 2024</string>
+    <string name="main_message">ନମସ୍କାର, This app is dedicated to Laxmi Puja Committee 2024,Pendren.</string>
+    <string name="button_name">Next</string>
+    <string name="second_page_message">This is a community work if we everybody of this village engage in the work then we cauld set a great example.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
